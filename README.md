@@ -1,0 +1,1 @@
+# syntastic-local-eslint
