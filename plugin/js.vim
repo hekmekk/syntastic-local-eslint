@@ -1,5 +1,4 @@
 let g:syntastic_javascript_checkers = []
-
 function! CheckJavaScriptLinter(filepath, linter)
 	if exists('b:syntastic_checkers')
 		return
