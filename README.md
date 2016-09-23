@@ -1,3 +1,7 @@
+TODO
+====
+Fix exception handling and logging if syntastic is not installed
+
 syntastic-local-eslint
 ======================
 
