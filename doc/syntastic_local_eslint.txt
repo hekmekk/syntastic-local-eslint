@@ -1,7 +1,5 @@
-syntastic-local-eslint
-======================
+*syntastic_local_eslint.txt* Runs your local eslint
 
-```bash
                  _            _   _            ~
  ___ _   _ _ __ | |_ __ _ ___| |_(_) ___       ~
 / __| | | | '_ \| __/ _` / __| __| |/ __|____  ~
@@ -20,26 +18,26 @@ syntastic-local-eslint
 |  __/\__ \ | | | | | |_  ~
  \___||___/_|_|_| |_|\__| ~
                           ~
-```
 
-Installation
-------------
-```vim
-Plug 'hekmekk/syntastic-local-eslint'
-```
+Author:  hekmekk <hekmek@posteo.de>
+License: Same terms as Vim itself (see |license|)
 
-Dependencies
-------------
-* `scrooloose/syntastic`
+INSTALLATION					*installation*
 
-How it works
-------------
-* clear `g:syntastic_javascript_checkers`
-* look for `eslint` within...
-	* first, your local project: `./node_modules/.bin`
-	* then your globally installed packages: `/node_modules/.bin`
-* set `g:syntastic_eslint_exec` accordingly
+	Plug 'hekmekk/syntastic-local-eslint'
 
-Credits belong to
------------------
-http://nunes.io/notes/guide/vim-how-to-setup-eslint/
+DEPENDENCIES					*dependencies*
+
+	'scrooloose/syntastic'
+
+HOW IT WORKS					*how-it-works*
+
+	clear 'g:syntastic_javascript_checkers'
+	look for 'eslint' within...
+		first, your local project: './node_modules/.bin/'
+		then your globally installed packages: '/node_modules/.bin/'
+	set 'g:syntastic_eslint_exec' accordingly
+
+CREDIT BELONGS TO				*credits-to*
+
+	http://nunes.io/notes/guide/vim-how-to-setup-eslint/
