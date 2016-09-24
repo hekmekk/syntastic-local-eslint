@@ -1,4 +1,4 @@
-function s:checkJavaScriptLinter(filepath, linter)
+function! s:checkJavaScriptLinter(filepath, linter)
 	if exists('b:syntastic_checkers')
 		return
 	endif
@@ -8,7 +8,7 @@ function s:checkJavaScriptLinter(filepath, linter)
 	endif
 endfunction
 
-function s:setupJavaScriptLinter()
+function! s:setupJavaScriptLinter()
 	try
 		let g:syntastic_javascript_checkers = []
 		let l:current_folder = expand('%:p:h')
