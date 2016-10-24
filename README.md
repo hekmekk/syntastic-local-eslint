@@ -6,7 +6,7 @@ Use your local installation of eslint with [syntastic](https://github.com/scrool
 Installation
 ------------
 ```vim
-Plug 'hekmekk/syntastic-local-eslint'
+Plug 'scrooloose/syntastic' | Plug 'hekmekk/syntastic-local-eslint'
 ```
 
 Dependencies
